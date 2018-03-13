@@ -1,4 +1,6 @@
-import './sale.less'
+import React from 'react';
+import ReactDom from 'react-dom';
+import { SaleDetail } from '../components/sale/detail.jsx';
 
-let a = 1;
-console.log(a)
+const node = document.getElementById('root');
+ReactDom.render(<SaleDetail />, node);

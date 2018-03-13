@@ -1,6 +1,1 @@
-.a .b {
-  color: yellow;
-}
-.a .c {
-  background: url(assets/pic_223_Jkg.jpg);
-}
+#root{color:red;background:url(/distassets/pic_223_Jkg.jpg)}
